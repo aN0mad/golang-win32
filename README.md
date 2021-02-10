@@ -2,12 +2,12 @@
 Some source code for playing with and learning to use win32 with golang.
 
 ## Folders & files
-| Folders    | Status     | Description  |
-|:----------:|:----------:|:------------|
-| messageBox              | Done        | Mapping and creating the win32 function MessageBoxW call by hand|
-| mkwinsyscall-MessageBox | Done        | Using mkwinsyscall to map and create the MessageBoxW function |
-| processInject-shellcode | In progress | Using mkwinsyscall to create win32 calls to do process injection |
-| processinject-dll       | TBD         | Using mkwinsyscall to create win32 calls to do reflective dll injection |
+| Folders    | Status         | Description  |
+|:----------:|:--------------:|:------------|
+| messageBox                  | Done        | Mapping and creating the win32 function MessageBoxW call by hand|
+| mkwinsyscall-MessageBox     | Done        | Using mkwinsyscall to map and create the MessageBoxW function |
+| processInject-shellcode     | In progress | Using mkwinsyscall to create win32 calls to do process injection |
+| processinject-dll           | TBD         | Using mkwinsyscall to create win32 calls to do reflective dll injection |
 
 ## Resources
 1. [How To Call Windows APIs In Golang](https://anubissec.github.io/How-To-Call-Windows-APIs-In-Golang/ "Read 1st")
